@@ -1,5 +1,8 @@
 ### Jupyter Notebook
 ./ipynb_checkpoints
 
+###
+./vscode
+
 #PDF
 *.pdf
