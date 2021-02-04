@@ -174,4 +174,4 @@ def get_data_from_selectors_users_active(relayout, figure):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8080)
+    app.run_server(host='0.0.0.0', port=8080)
