@@ -52,7 +52,7 @@ class Load_to_Neo4j:
             , last_sign_in: db.last_sign_in_at
             , gender: db.gender
             , has_seen_onboarding: db.has_seen_onboarding
-            , has_been_suscribed: db.has_been_suscribed
+            , has_been_subscribed: db.has_been_subscribed
             ,})
         """, file=csv)
 
