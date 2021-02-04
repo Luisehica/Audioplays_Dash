@@ -6,7 +6,8 @@ from utils import Header
 
 ### Setup dash plotly
 external_stylesheets = [dbc.themes.BOOTSTRAP]
-server = flask.Flask(__name__)
+#server = flask.Flask(__name__)
+
 
 app = dash.Dash(__name__, 
     suppress_callback_exceptions=True,
@@ -14,7 +15,8 @@ app = dash.Dash(__name__,
     meta_tags=[{'name': 'viewport',
         'content': 'width=device-width'}] #, initial-scale=1.0'}]
     )
-
+    
+server = app.server
 app.title = 'Beek Dashboard Data Challenge'
 
 ### Create Layout
