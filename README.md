@@ -7,7 +7,7 @@
 src/python index.py
 
 #### App Url
-Poner direccion
+https://github.com/Luisehica/Beak_Data_Challenge
 
 ## Quickstart
 Dashboard deploy with EC2
