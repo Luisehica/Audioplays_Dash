@@ -1,4 +1,4 @@
-# Beak Data Challenge
+# Audioplays_Dash
 
 ## About the project
 
